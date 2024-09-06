@@ -1,0 +1,59 @@
+:root {
+    --color-material: #2da916;
+    --color-50: color-mix(in srgb, var(--color-material) 5%, white);
+    --color-100: color-mix(in srgb, var(--color-material) 10%, white);
+    --color-200: color-mix(in srgb, var(--color-material) 30%, white);
+    --color-300: color-mix(in srgb, var(--color-material) 50%, white);
+    --color-400: color-mix(in srgb, var(--color-material) 70%, white);
+    --color-500: var(--color-material);
+    --color-600: color-mix(in srgb, var(--color-material) 70%, black);
+    --color-700: color-mix(in srgb, var(--color-material) 50%, black);
+    --color-800: color-mix(in srgb, var(--color-material) 30%, black);
+    --color-900: color-mix(in srgb, var(--color-material) 10%, black);
+}
+
+.box {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 5px;
+}
+
+.color-50 {
+    background: var(--color-50);
+}
+
+.color-100 {
+    background: var(--color-100);
+}
+
+.color-200 {
+    background: var(--color-200);
+}
+
+.color-300 {
+    background: var(--color-300);
+}
+
+.color-400 {
+    background: var(--color-400);
+}
+
+.color-500 {
+    background: var(--color-500);
+}
+
+.color-600 {
+    background: var(--color-600);
+}
+
+.color-700 {
+    background: var(--color-700);
+}
+
+.color-800 {
+    background: var(--color-800);
+}
+
+.color-900 {
+    background: var(--color-900);
+}

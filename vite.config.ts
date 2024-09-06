@@ -13,6 +13,7 @@ export default defineConfig({
       input: {
         index: resolve(root, 'index.html'),
         popoverApi: resolve(root, 'popover-api', 'index.html'),
+        colorMixGlobalToken: resolve(root, 'color-mix-global-token', 'index.html'),
       },
     },
   },
