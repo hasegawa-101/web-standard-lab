@@ -1,0 +1,1 @@
+:root{--max-length: 40}.wrapper{width:round(down,min(100%,var(--max-length) * 1rem),1rem);margin-inline:auto}
