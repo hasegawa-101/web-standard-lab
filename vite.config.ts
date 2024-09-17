@@ -14,6 +14,7 @@ export default defineConfig({
         index: resolve(root, 'index.html'),
         popoverApi: resolve(root, 'popover-api', 'index.html'),
         colorMixGlobalToken: resolve(root, 'color-mix-global-token', 'index.html'),
+        roundWrapper: resolve(root, 'round-wrapper', 'index.html'),
       },
     },
   },
