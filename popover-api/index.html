@@ -10,6 +10,15 @@
 <main>
     <button popovertarget="mypopover">ポップオーバーを開く</button>
     <div id="mypopover" popover>ポップオーバーやで</div>
+
+    <button popovertarget="autofocus-popover">autofocus!!!!</button>
+    <div id="autofocus-popover" popover>
+        <label>
+            フォーカスされるやで：
+            <input type="text" autofocus>
+        </label>
+        <button popovertarget="autofocus-popover" popovertargetaction="hide">閉じる</button>
+    </div>
 </main>
 </body>
 </html>
