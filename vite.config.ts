@@ -20,6 +20,7 @@ export default defineConfig({
         colorMixGlobalToken: resolve(root, 'color-mix-global-token', 'index.html'),
         roundWrapper: resolve(root, 'round-wrapper', 'index.html'),
         inputSwitch: resolve(root, 'input-switch', 'index.html'),
+        customizeSelect: resolve(root, 'customize-select', 'index.html'),
       },
     },
   },
