@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>field-sizing-content | Web Standard LAB</title>
+  <script type="module" crossorigin src="/web-standard-lab/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+  <link rel="stylesheet" crossorigin href="/web-standard-lab/assets/fieldSizingContent-HiKd7I2K.css">
+</head>
+<body>
+<h1>field-sizing-content</h1>
+<main>
+    <!-- クラス名に置き換える -->
+    <div class="field-sizing-content-container">
+        <div class="field-sizing-content-item">
+        <label for="name">名前</label>
+        <input type="text" id="name"/>
+        </div>
+
+        <div class="field-sizing-content-item">
+        <label for="gender">性別</label>
+        <select id="gender">
+          <option value="male">男性</option>
+          <option value="male">男の中の男</option>
+          <option value="female">女性</option>
+          <option value="other">その他</option>
+          <option value="unknown">未回答</option>
+        </select>
+        </div>
+        
+        <div class="field-sizing-content-item field-sizing-content-item--textarea">
+        <label for="note">自由入力欄</label>
+        <textarea id="note"></textarea>
+        </div>
+        </div>
+</main>
+</body>
+</html>
