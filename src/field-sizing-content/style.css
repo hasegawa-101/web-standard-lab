@@ -1,0 +1,35 @@
+.field-sizing-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+}
+
+.field-sizing-content-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.field-sizing-content-item label {
+    flex-shrink: 0;
+}
+
+.field-sizing-content-item input,
+.field-sizing-content-item select {
+    min-width: 160px;
+    field-sizing: content;
+    padding: 0.5rem;
+}
+
+.field-sizing-content-item.field-sizing-content-item--textarea {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.field-sizing-content-item.field-sizing-content-item--textarea textarea {
+    width: 100%;
+    min-height: 80px;
+    field-sizing: content;
+    padding: 0.5rem;
+}

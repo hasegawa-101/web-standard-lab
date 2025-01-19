@@ -21,6 +21,7 @@ export default defineConfig({
         roundWrapper: resolve(root, 'round-wrapper', 'index.html'),
         inputSwitch: resolve(root, 'input-switch', 'index.html'),
         customizeSelect: resolve(root, 'customize-select', 'index.html'),
+        fieldSizingContent: resolve(root, 'field-sizing-content', 'index.html'),
       },
     },
   },
